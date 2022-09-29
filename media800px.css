@@ -1,0 +1,24 @@
+@media only screen and (max-width: 800px){
+
+    #itens{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #conteudo--caixa1{
+        padding-top: 50px;
+    }
+
+    #caixa1--imagem img{
+        width: 100%;
+    }
+
+    #caixa2, #caixa3, #icones--mobile{
+        padding-bottom: 50px;
+    }
+
+    #caixa3--mobile{
+        display: none;
+    }
+}

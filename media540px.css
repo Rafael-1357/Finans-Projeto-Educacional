@@ -1,0 +1,96 @@
+:root {
+    --amarelo: #ffc107;
+    --azul: #007bff;
+}
+
+@media only screen and (max-width: 540px){
+
+
+    #itens{
+        display: none;
+        width: 100%;
+        height: 30vh;
+
+        position: absolute;
+        top: 70px;
+        background-color: var(--amarelo);
+
+        flex-direction: column;
+    }
+
+    #botao--hamb{
+        display: flex;
+    }
+
+    .item{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    #itens button{
+        margin-left: 7.5px;
+    }
+
+    #botao--hamb{
+        background: none;
+    }
+
+    #conteudo--header i{
+        color: #fff;
+        font-size: 24px;
+
+        margin: 0 10px;
+    }
+
+    #caixa1--textos{
+        width: 100%;
+    }
+
+    #caixa1--imagem{
+        display: none;
+    }
+
+    #caixa2, #caixa3--mobile{
+        flex-direction: column;
+    }
+
+    #caixa3{
+        display: none;
+    }
+
+    #caixa3--mobile{
+        margin: 0 auto;
+        padding-bottom: 50px;
+        border-bottom: 1px solid #cfcfcf;
+
+        display: flex;
+        align-items: center;
+    }
+
+    #caixa2--textos, #caixa2--imagem, #caixa3--imagem,
+    #caixa3--textos, #caixa3--mobile{
+        width: 95%;
+    }
+
+    #caixa2--textos button, #caixa3--textos button{
+        margin-bottom: 25px;
+    }
+
+    #caixa3--imagem{
+        width: 60%;
+    }
+
+    #caixa4--conteudo{
+        flex-direction: column;
+    }
+
+    .cartoes{
+        width: 95%;
+        margin-top: 50px;
+    }
+
+    #itens--footer .item{
+        display: block;
+    }
+
+}

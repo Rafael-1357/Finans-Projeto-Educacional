@@ -1,0 +1,334 @@
+:root {
+    --amarelo: #ffc107;
+    --azul: #007bff;
+    --letra-menu: #000000b3
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'MorandiUltraLight';
+    src: url('MorandiUltraLight.otf') format('truetype');
+}
+
+header {
+    background-color: var(--amarelo);
+}
+
+#conteudo--header {
+    width: 1140px;
+
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'MorandiUltraLight', Roboto Mono, monospace, sans-serif;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo img {
+    width: 142px;
+}
+
+#itens a {
+    text-decoration: none;
+}
+
+.item {
+    padding: 0 7.5px;
+    color: #fff;
+}
+
+#itens button {
+    width: 68px;
+    height: 38px;
+
+    color: #fff;
+    font-size: 16px;
+
+    margin-left: 24px;
+    padding: 6px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    background: none;
+    cursor: pointer;
+}
+
+.caixa {
+    width: 100%;
+}
+
+#caixa1 {
+    width: 100%;
+    background-color: #ffc107;
+}
+
+#conteudo--caixa1 {
+    max-width: 1140px;
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#caixa1--textos {
+    width: 50%;
+
+    color: white;
+    font-family: 'MorandiUltraLight', Roboto Mono, monospace, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#caixa1--textos h1 {
+    font-size: 3rem;
+    font-weight: 300;
+
+    margin-bottom: 8px;
+}
+
+#caixa1--textos p {
+    margin-bottom: 16px;
+}
+
+#icones--mobile {
+    display: flex;
+    flex-direction: row;
+}
+
+#icones--mobile a {
+    margin-right: 10px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+
+#icones--mobile a i {
+    color: #fff;
+    font-size: 20px;
+}
+
+#caixa1--formulario {
+    width: 100%;
+
+    margin-bottom: 25px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#caixa1--formulario input {
+    width: 75%;
+    height: calc(2.875rem + 2px);
+
+    font-size: 1.25rem;
+
+    padding: 8px 16px;
+    border-radius: 0.3rem 0 0 0.3rem;
+    outline: none;
+}
+
+#caixa1--formulario button {
+    width: 25%;
+    height: calc(2.875rem + 2px);
+
+    color: white;
+    font-size: 1.25em;
+
+    border-radius: 0 0.3rem 0.3rem 0;
+    background-color: var(--azul);
+    cursor: pointer;
+}
+
+#caixa1--formulario button:hover {
+    font-size: 1.3em;
+    transition: 0.5s ease-in-out;
+}
+
+#caixa1--imagem {
+    display: flex;
+    align-items: flex-end;
+}
+
+#caixa2 {
+    max-width: 1140px;
+
+    margin: 50px auto;
+    border-bottom: 1px solid #cfcfcf;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#caixa2--textos {
+    width: 50%;
+    font-family: 'MorandiUltraLight';
+}
+
+#caixa2--textos h1 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#caixa2--textos p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#caixa2--textos button {
+    padding: 7px 20px;
+    border-radius: 4px;
+    background: var(--azul);
+    cursor: pointer;
+}
+
+#caixa2--textos button a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#caixa2--imagem {
+    width: 50%;
+}
+
+#caixa2--imagem img {
+    width: 100%;
+}
+
+#caixa3 {
+    max-width: 1140px;
+
+    margin: 50px auto;
+    border-bottom: 1px solid #cfcfcf;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#caixa3--textos {
+    width: 50%;
+    font-family: 'MorandiUltraLight';
+}
+
+#caixa3--textos h1 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#caixa3--textos p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#caixa3--textos button {
+    padding: 7px 20px;
+    border-radius: 4px;
+    background: var(--azul);
+    cursor: pointer;
+}
+
+#caixa3--textos button a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#caixa3--imagem {
+    width: 30%;
+    margin: 0 auto;
+}
+
+#caixa3--imagem img {
+    width: 100%;
+}
+
+#caixa3--mobile {
+    display: none;
+}
+
+#caixa4 {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+#caixa4--conteudo {
+
+    padding-bottom: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cartoes {
+    width: 30%;
+
+    font-family: 'MorandiUltraLight';
+
+    margin: 0 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cartoes--texto p {
+    font-size: 18px;
+}
+
+.cartoes img {
+    width: 80%;
+}
+
+footer {
+    max-width: 1140px;
+
+    font-family: 'MorandiUltraLight';
+
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid #cfcfcf;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#itens--footer .item {
+    margin-right: 25px;
+    color: var(--azul);
+    text-decoration: none;
+}
+
+#midias--footer {
+    display: flex;
+    flex-direction: row;
+}
+
+#midias--footer a {
+    text-decoration: none;
+}
+
+#midias--footer .fa-brands {
+    color: rgb(131, 130, 130);
+    font-size: 24px;
+
+    margin-right: 15px;
+}

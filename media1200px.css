@@ -1,0 +1,47 @@
+@media only screen and (max-width: 1200px) {
+
+    header{
+        max-width: 100vw;
+    }
+
+    #itens{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #botao--hamb{
+        display: none;
+    }
+
+    #conteudo--header{
+        width: 95%;
+    }
+
+    #conteudo--caixa1, #caixa2, #caixa3, #caixa4, footer{
+        width: 95%;
+    }
+
+    #caixa1--formulario input{
+        width: calc(100% - 120px);
+    }
+
+    #caixa1--formulario button{
+        width: 120px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px){
+    
+    #botao--hamb {
+            display: none;
+        }
+
+    #itens{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
